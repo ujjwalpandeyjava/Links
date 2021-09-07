@@ -212,6 +212,17 @@ body {
   display: flex;
   -webkit-column-gap: 20px;
           column-gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .main .links div .image {
@@ -219,7 +230,6 @@ body {
   width: auto;
   max-width: 100px;
   display: f lex;
-  border: 1px solid black;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -227,6 +237,24 @@ body {
       -ms-flex-align: center;
           align-items: center;
   word-wrap: break-word;
+}
+
+@media (max-width: 570px) {
+  .main .links div .image i {
+    font-size: x-large;
+  }
+}
+
+@media (min-width: 570px) and (max-width: 949px) {
+  .main .links div .image i {
+    font-size: xx-large;
+  }
+}
+
+@media (min-width: 950px) {
+  .main .links div .image i {
+    font-size: xxx-large;
+  }
 }
 
 .main .links div .details {
@@ -237,55 +265,36 @@ body {
   font-weight: bold;
 }
 
+.main .links div .details a {
+  text-decoration: none;
+  color: #303030;
+  font-variant: small-caps;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media (max-width: 570px) {
+  .main .links div .details a {
+    font-size: large;
+  }
+}
+
+@media (min-width: 570px) and (max-width: 949px) {
+  .main .links div .details a {
+    font-size: large;
+  }
+}
+
+@media (min-width: 950px) {
+  .main .links div .details a {
+    font-size: x-large;
+  }
+}
+
 .main .links div .details:hover {
-  background-color: white;
+  background-color: #ffffff5c;
   color: black;
   -webkit-box-shadow: 0 0 7px #9e4dea;
           box-shadow: 0 0 7px #9e4dea;
-}
-
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@-webkit-keyframes spinOpp {
-  0% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-  100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-}
-
-@keyframes spinOpp {
-  0% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-  100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
 }
 
 .footer {

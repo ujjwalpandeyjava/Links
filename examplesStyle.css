@@ -232,7 +232,9 @@ body {
   padding: 10px;
   width: auto;
   max-width: 100px;
-  display: f lex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   border: 1px solid black;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
