@@ -35,9 +35,6 @@ body {
     align-items: center;
     padding: 9px;
     margin: 10px;
-    a {
-        text-decoration: none;
-    }
     .userName {
         padding: 5px;
         min-height: 50px;
@@ -59,64 +56,64 @@ body {
         align-items: center;
         width: 100%;
         box-shadow: 0 2px 3px #7e73e373;
-        .insideHeaderImages {
-            // border: 1px dotted red;
-            min-height: inherit;
-            width: 300px;
-            margin: 0px 15px;
-            display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            cursor: pointer;
-            // align-items: center;
-            .imgdiv {
-                min-height: 130px;
-                height: 100%;
-                max-height: 200px;
-                min-width: 100px;
-                width: 100%;
-                max-width: 300px;
+        a {
+            text-decoration: none;
+            .insideHeaderImages {
+                // border: 1px dotted red;
+                min-height: inherit;
+                width: 300px;
+                margin: 0px 15px;
                 display: flex;
-                align-content: center;
-                // background-image: url("imges_used/2.jpg");
-                background-size: cover;
-                background-repeat: none;
-                background-attachment: local;
-                background-position: center;
-                border-radius: 30px;
-                box-shadow: 0 0 8px 7px #62a1ed inset;
-                transition: transform 0.4s ease;
-                @media all and (max-width: 570px) {
-                    border-radius: 50%;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                cursor: pointer;
+                .imgdiv {
+                    min-height: 130px;
+                    height: 100%;
+                    max-height: 200px;
+                    min-width: 100px;
+                    width: 100%;
+                    max-width: 300px;
+                    display: flex;
+                    align-content: center;
+                    background-size: cover;
+                    background-repeat: none;
+                    background-attachment: local;
+                    background-position: center;
+                    border-radius: 30px;
+                    box-shadow: 0 0 8px 7px #62a1ed inset;
+                    transition: transform 0.4s ease;
+                    @media all and (max-width: 570px) {
+                        border-radius: 50%;
+                    }
+                }
+                .imgdiv:hover {
+                    transform: scale(1.2);
+                }
+                .sectionName {
+                    text-align: center;
+                    padding: 10px;
+                    color: black;
+                    font-style: italic;
+                    font-family: serif;
+                    font-size: 1.35em;
                 }
             }
-            .imgdiv:hover {
-                transform: scale(1.2);
+            #socials {
+                .imgdiv {
+                    background-image: url("imges_used/social.jfif");
+                }
             }
-            .sectionName {
-                text-align: center;
-                padding: 10px;
-                color: black;
-                font-style: italic;
-                font-family: serif;
-                font-size: 1.35em;
+            #profileImage {
+                .imgdiv {
+                    background-image: url("imges_used/2.jpg");
+                }
             }
-        }
-
-        #socials {
-            .imgdiv {
-                background-image: url("imges_used/social.jfif");
-            }
-        }
-        #profileImage {
-            .imgdiv {
-                background-image: url("imges_used/2.jpg");
-            }
-        }
-        #examples {
-            .imgdiv {
-                background-image: url("imges_used/1.jpg");
+            #examples {
+                .imgdiv {
+                    background-image: url("imges_used/1.jpg");
+                }
             }
         }
     }
@@ -171,7 +168,7 @@ body {
 .footer {
     display: block;
     color: black;
-    background-color: rgb(255 203 136 0.33);
+    background-color: rgba(255, 203, 136, 0.33);
     text-align: center;
     font-family: "Nunito Sans", sans-serif;
 }
