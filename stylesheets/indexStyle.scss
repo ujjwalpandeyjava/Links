@@ -34,18 +34,6 @@ body {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    /*
-    .userName {
-        padding: 5px;
-        min-height: 50px;
-        margin-top: 2rem;
-        margin-bottom: 1.5em;
-        font-size: 2.2rem;
-        color: #305079;
-        font-family: "Proza Libre", sans-serif;
-        text-shadow: 1px 1px 3px #3838fd, 1px 1px 5px #38fdb7;
-    }
-    */
     .userName {
         padding: 5px;
         min-height: 50px;
@@ -58,8 +46,6 @@ body {
         font-weight: lighter;
         text-shadow: 1px 1px 3px #3838fd, 1px 1px 5px #38fdb7;
     }
-    /*
-    */
     .headerImages {
         display: flex;
         flex-direction: row;
@@ -78,18 +64,18 @@ body {
 
             #socials {
                 .imgdiv {
-                    background-image: url("./imges_used/social.jfif");
+                    background-image: url("../imges_used/social.jfif");
                 }
             }
             #profileImage {
                 .imgdiv {
-                    background-image: url("./imges_used/profileImage.jpg");
+                    background-image: url("../imges_used/profileImage.jpg");
                     // filter: sepia(100%) hue-rotate(190deg) saturate(500%);
                 }
             }
             #examples {
                 .imgdiv {
-                    background-image: url("./imges_used/1.jpg");
+                    background-image: url("../imges_used/1.jpg");
                 }
             }
             .insideHeaderImages {
@@ -167,20 +153,37 @@ body {
         @media (max-width: 570px) {
             display: block;
             width: 100%;
-            // background-color: green;
         }
         div {
             display: flex;
             column-gap: 20px;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: nowrap;
+            flex-direction: row;
+
             .image {
                 padding: 10px;
                 width: auto;
                 max-width: 100px;
-                display: flex;
-                border: 1px solid black;
+                display: f lex;
+                // border: 1px solid black;
                 justify-content: center;
                 align-items: center;
                 word-wrap: break-word;
+                i {
+                    @media (max-width: 570px) {
+                        font-size: x-large;
+                    }
+                    // 570 - 949
+                    @media (min-width: 570px) and (max-width: 949px) {
+                        font-size: xx-large;
+                    }
+                    // 950 - all
+                    @media (min-width: 950px) {
+                        font-size: xxx-large;
+                    }
+                }
             }
             .details {
                 // border: 1px solid black;
@@ -189,47 +192,31 @@ body {
                 color: black;
                 font-family: "Nunito Sans", sans-serif;
                 font-weight: bold;
+                a {
+                    text-decoration: none;
+                    color: #303030;
+                    font-variant: small-caps;
+                    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                    //0-570
+                    @media (max-width: 570px) {
+                        font-size: large;
+                    }
+                    // 570 - 949
+                    @media (min-width: 570px) and (max-width: 949px) {
+                        font-size: large;
+                    }
+                    // 950 - all
+                    @media (min-width: 950px) {
+                        font-size: x-large;
+                    }
+                }
             }
             .details:hover {
-                background-color: white;
+                // background-color: white;
+                background-color: #ffffff5c;
                 color: black;
                 box-shadow: 0 0 7px #9e4dea;
             }
-        }
-    }
-    .loader {
-        margin-left: 45.5%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 10px solid #f3f3f3;
-        border-radius: 50%;
-        border-top: 10px solid #3498db;
-        width: 100px;
-        height: 100px;
-        font-style: italic;
-        font-weight: bolder;
-        color: gray;
-        animation: spin 2s linear infinite;
-        div {
-            animation: spinOpp 2s linear infinite;
-        }
-    }
-
-    @keyframes spin {
-        0% {
-            transform: rotate(0deg);
-        }
-        100% {
-            transform: rotate(360deg);
-        }
-    }
-    @keyframes spinOpp {
-        0% {
-            transform: rotate(360deg);
-        }
-        100% {
-            transform: rotate(0deg);
         }
     }
 }
