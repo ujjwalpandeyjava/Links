@@ -15,7 +15,7 @@ function loadData() {
                 //Adding links choose any one
                 addingLinksAtOnce(user);
                 // addingLinksAtInterval
-            }, 1550);
+            }, 1150);
         }
     );
 }
@@ -30,7 +30,7 @@ function addingLinksAtOnce(userData) {
                 <div class="image">
                     <img src="examplesPreviewImages/${(singleData.imageNameWithExtension === "none") ? "noImageFound.jpg" : (singleData.imageNameWithExtension) ? singleData.imageNameWithExtension : "noImageFound.jpg"}" alt="work preview">
                 </div>
-                <div class="details"><a href="${singleData.exampleLink}">${singleData.title}</a><br /><span>Is Responsive :
+                <div class="details"><a href="${singleData.exampleLink}" target="_blank">${singleData.title}</a><br /><span>Is Responsive :
                         <i>${(singleData.responsive) ? "Yes" : "No"}</span></i>
                 </div>
             </div>
