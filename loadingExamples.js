@@ -15,7 +15,7 @@ function loadData() {
                 //Adding links choose any one
                 addingLinksAtOnce(user);
                 // addingLinksAtInterval
-            }, 1750);
+            }, 1550);
         }
     );
 }

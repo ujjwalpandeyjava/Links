@@ -11,7 +11,6 @@ font-family: 'Lobster Two', cursive;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
     background: transparent;
 }
 body {
@@ -53,90 +52,64 @@ body {
         align-content: center;
         justify-content: space-evenly;
         align-items: center;
-        column-gap: 20px;
         width: 100%;
-        // border: 1px solid black;
-        a {
-            color: black;
-            text-decoration: none;
-            text-decoration-color: black;
+        padding: 4.5px 0;
+        .insideHeaderImages {
             width: 30%;
-
-            #socials {
+            a {
+                text-decoration: none;
+                text-decoration-color: black;
+                // width: 100%;
+                // min-height: 100px;
                 .imgdiv {
-                    background-image: url("../imges_used/social.jfif");
-                }
-            }
-            #profileImage {
-                .imgdiv {
-                    background-image: url("../imges_used/profileImage.jpg");
-                    // filter: sepia(100%) hue-rotate(190deg) saturate(500%);
-                }
-            }
-            #examples {
-                .imgdiv {
-                    background-image: url("../imges_used/1.jpg");
-                }
-            }
-            .insideHeaderImages {
-                display: flex;
-                width: 100%;
-                align-content: stretch;
-                flex-wrap: nowrap;
-                flex-direction: column;
-                justify-content: space-around;
-                align-items: stretch;
-
-                .imgdiv {
-                    min-height: 130px;
-                    height: 100%;
-                    max-height: 230px;
-                    min-width: 100px;
+                    display: flex;
+                    min-height: 100px;
                     width: 100%;
-                    max-width: 300px;
-                    margin: 5px auto;
-                    max-width: 33%;
-
-                    // for image
+                    flex-direction: column;
+                    flex-wrap: nowrap;
                     align-content: center;
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-attachment: local;
-                    background-position: center;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
                     box-shadow: 0 0 8px 3px #62a1ed inset;
-                    transition: transform 0.4s ease;
+                    transition: all 0.45s ease;
+                    // max-height: 230px;
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                        min-height: 100px;
+                        height: auto;
+                        z-index: -2;
+                    }
                     // 0-570
                     @media (max-width: 570px) {
                         border-radius: 46%;
-                        min-width: 145px;
                     }
                     // 570 - 949
-                    @media (min-width: 570px) and (max-width: 949px) {
+                    @media (min-width: 570px) {
                         border-radius: 10px;
-                        min-width: 170px;
                     }
-                    // 950 - all
-                    @media (min-width: 950px) {
-                        min-width: 300px;
-                        border-radius: 10px;
-                        min-height: 180px;
-                    }
+                }
+                .imgdiv:hover {
+                    transform: scale(1.13);
+                    border-radius: 20px;
+                    box-shadow: 1px 1px 9px 0px #2c147b;
                 }
                 .sectionName {
                     text-align: center;
-                    padding: 10px;
+                    padding: 6px;
                     color: black;
                     font-style: italic;
                     font-family: serif;
                     font-size: 1.35em;
                 }
             }
-        }
-        a:link,
-        a:visited,
-        a:hover,
-        a:active {
-            color: black;
+            a:link,
+            a:visited,
+            a:hover,
+            a:active {
+                color: black;
+            }
         }
     }
 }
