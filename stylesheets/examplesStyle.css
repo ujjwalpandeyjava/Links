@@ -278,7 +278,7 @@ body {
 }
 
 .main .loader {
-  margin-left: 45.5%;
+  margin-left: 43.5%;
   margin-bottom: 1.4rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -297,6 +297,8 @@ body {
   font-style: italic;
   font-weight: bolder;
   color: gray;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   -webkit-animation: spin 2s linear infinite;
           animation: spin 2s linear infinite;
 }
