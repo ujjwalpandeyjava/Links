@@ -84,6 +84,7 @@ body {
                     align-items: center;
                     overflow: hidden;
                     box-shadow: 0 0 8px 3px #62a1ed inset;
+                    cursor: pointer;
                     transition: all 0.45s ease;
                     // max-height: 230px;
                     img {
@@ -132,11 +133,10 @@ body {
     }
 }
 .main {
+    // border: 1px solid;
     display: block;
     padding: 23px;
     min-height: 29vh;
-    border: 10px solid white;
-    width: 100vw;
     position: relative;
     .loader {
         position: absolute;
@@ -176,6 +176,7 @@ body {
         div {
             display: flex;
             column-gap: 20px;
+            cursor: pointer;
             .image {
                 padding: 1px;
                 width: 60%;
@@ -185,6 +186,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 word-wrap: break-word;
+                transition: all 0.6s ease-in-out;
                 img {
                     // object-fit: cover;
                     object-fit: fill;
@@ -195,12 +197,16 @@ body {
                     box-shadow: 1px 1px 2px #6d5f5fe0;
                     border-radius: 7px;
                 }
+                &:hover {
+                    transform: scale(1.5);
+                }
             }
             .details {
                 display: block;
                 padding: 10px;
                 width: 100%;
-                color: black;
+                // color: black;
+                color: white;
                 font-family: "Nunito Sans", sans-serif;
                 font-weight: bold;
                 span,
@@ -209,17 +215,19 @@ body {
                 }
                 a {
                     color: black;
+                    color: white;
                     text-decoration: none;
                 }
             }
             .details:hover {
-                background-color: #ffffff33;
+                background-color: #ffffff56;
                 color: black;
                 box-shadow: 0 0 7px #9e4dea;
-                span,
-                i {
-                    color: black;
-                }
+                border-radius: 6px;
+                // span,
+                // i {
+                //     color: black;
+                // }
             }
         }
     }
@@ -240,10 +248,20 @@ body {
         }
     }
 }
-
+.javaDescription {
+    font-size: 22 px;
+    padding: 20px;
+    color: darkslategray;
+    font-weight: bold;
+    p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+}
 .footer {
     margin: 0;
     display: block;
+    // width: 100%;
     color: black;
     background-color: rgba(255, 203, 136, 0.33);
     text-align: center;

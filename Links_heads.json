@@ -21,52 +21,82 @@
         ],
         "WorkExamples": [
             {
-                "title": "This is work title 1 -- git",
-                "exampleLink": "https://github.com/ujjwalpandeyjava",
+                "title": "Full Fladged  - Java web app for computer coaching (Best till date)(Run in eclipse)",
+                "exampleLink": "https://github.com/ujjwalpandeyjava/InstituteManagementSystem",
                 "imageNameWithExtension": "",
                 "responsive": true
             },
             {
-                "title": "This is work title 2 -- hackerrank",
-                "exampleLink": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript?filters%5Bsubdomains%5D%5B%5D=10-days-of-javascript&filters%5Bstatus%5D%5B%5D=unsolved",
-                "imageNameWithExtension": "none",
+                "title": "Project Links - for resume and links sharing purpose",
+                "exampleLink": "https://ujjwalpandeyjava.github.io/Links/",
+                "imageNameWithExtension": "ujjwalAvatar3.png",
+                "responsive": true
+            },
+            {
+                "title": "Dance Academy Site (semi-responsive)",
+                "exampleLink": "https://pandey-dance-academy.herokuapp.com/",
+                "imageNameWithExtension": "pandeyDanceAcademy.jpeg",
+                "responsive": true
+            },
+            {
+                "title": "Car expo landing page",
+                "exampleLink": "https://ujjwalpandeyjava.github.io/CarExpoExample/",
+                "imageNameWithExtension": "carExpoPreview.jpeg",
+                "responsive": true
+            },
+            {
+                "title": "Pre Page Animation ",
+                "exampleLink": "https://ujjwalpandeyjava.github.io/Pre-PageLoading/",
+                "imageNameWithExtension": "prePageAnimationExample.jpg",
                 "responsive": false
             },
             {
-                "title": "This is work title 3 -- codeforces",
-                "exampleLink": "https://codeforces.com/problemset?order=BY_SOLVED_DESC&tags=0-1000",
+                "title": "Blog landing page with mulit level navagintion",
+                "exampleLink": "https://ujjwalpandeyjava.github.io/Multi-Level-Super-Duper-Mega-Dropdown-Menu/",
+                "imageNameWithExtension": "BlogLandingPage.jpg",
+                "responsive": false
+            },
+            {
+                "title": "Full physics Ping Pong game",
+                "exampleLink": "https://ujjwalpandeyjava.github.io/PingPongGameLoaded/",
+                "imageNameWithExtension": "PingPongGame.jpeg",
+                "responsive": true
+            },
+            {
+                "title": "Rodad Safer NGO - Full site, Front-end",
+                "exampleLink": "https://ujjwalpandeyjava.github.io/NGORoasSafety/",
+                "imageNameWithExtension": "roadsafer.jpeg",
+                "responsive": true
+            },
+            {
+                "title": "Pizza shop - show content onscroll",
+                "exampleLink": "https://ujjwalpandeyjava.github.io/Pizza-palace/",
+                "imageNameWithExtension": "PizzaShopLandingPage.jpeg",
+                "responsive": false
+            },
+            {
+                "title": "Super hard Blurry effect",
+                "exampleLink": "https://ujjwalpandeyjava.github.io/SuperCoolHoverEffecct/",
+                "imageNameWithExtension": "CoolBlurryEffect.jpg",
+                "responsive": true
+            },
+            {
+                "title": "ENotes - Simple Java Web app (Run in eclipse)",
+                "exampleLink": "https://github.com/ujjwalpandeyjava/ENotes",
                 "imageNameWithExtension": "",
-                "responsive": false
-            },
-            {
-                "title": "This is work title 3 -- training.com",
-                "exampleLink": "https://www.training.com/",
-                "imageNameWithExtension": "eg1.png",
                 "responsive": true
             },
             {
-                "title": "This is work title 1 -- git",
-                "exampleLink": "https://github.com/ujjwalpandeyjava",
-                "imageNameWithExtension": "eg1.png",
-                "responsive": true
-            },
-            {
-                "title": "This is work title 2 -- hackerrank",
-                "exampleLink": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript?filters%5Bsubdomains%5D%5B%5D=10-days-of-javascript&filters%5Bstatus%5D%5B%5D=unsolved",
-                "imageNameWithExtension": "none",
-                "responsive": false
-            },
-            {
-                "title": "This is work title 3 -- codeforces",
-                "exampleLink": "https://codeforces.com/problemset?order=BY_SOLVED_DESC&tags=0-1000",
+                "title": "ToDo - Java Web app with Spring and Hibernate (Run in eclipse)",
+                "exampleLink": "https://github.com/ujjwalpandeyjava/SimpleToDo_withHibernate",
                 "imageNameWithExtension": "",
-                "responsive": false
+                "responsive": true
             },
             {
-                "title": "This is work title 3 -- training.com",
-                "exampleLink": "https://www.training.com/",
-                "imageNameWithExtension": "eg1.png",
-                "responsive": true
+                "title": "1-mini, 1-small, 2-medium sized react apps (Run with node)",
+                "exampleLink": "https://github.com/ujjwalpandeyjava/React_Projects",
+                "imageNameWithExtension": "react.png",
+                "responsive": false
             }
         ]
     },
