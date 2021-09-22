@@ -8,7 +8,7 @@ function loadData() {
     $.getJSON("Links_heads.json",
         function (jsonData) {
             let user = jsonData.filter(data => { if (data.maild_id === "ujjwalpandey.aps@gmail.com") return data; })[0]
-            console.log('we got the data ', user);
+            // console.log('we got the data ', user);   
             //Data loaded in the variable "user" Now hide the loader
             setTimeout(() => {
                 hideLoader();
@@ -23,7 +23,7 @@ function loadData() {
 // Add links in loop
 function addingLinksAtOnce(userData) {
     userData.WorkExamples.forEach(singleData => {
-        console.log(singleData);
+        // console.log(singleData);
         let dataToBeAdded = `
         <div class="links">
             <div>

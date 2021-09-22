@@ -21,27 +21,21 @@
         ],
         "WorkExamples": [
             {
-                "title": "Full Fladged  - Java web app for computer institute (Best bt me till date)(Run in eclipse)",
+                "title": "Full Fladged  - Java web app for computer institute (Best by me till date)(Run in eclipse)",
                 "exampleLink": "https://github.com/ujjwalpandeyjava/InstituteManagementSystem",
                 "imageNameWithExtension": "ComputerInstitute.png",
                 "responsive": true
             },
             {
-                "title": "Project 'Links' - for resume and links sharing purpose",
+                "title": "Project 'Links' - this project",
                 "exampleLink": "https://ujjwalpandeyjava.github.io/Links/",
                 "imageNameWithExtension": "ujjwalAvatar3.png",
                 "responsive": true
             },
             {
-                "title": "Dance Academy Site (semi-responsive)",
+                "title": "Dance Academy Site (semi-responsive) (ME_N stack with pug) Full site",
                 "exampleLink": "https://pandey-dance-academy.herokuapp.com/",
                 "imageNameWithExtension": "pandeyDanceAcademy.jpeg",
-                "responsive": true
-            },
-            {
-                "title": "Car expo landing page",
-                "exampleLink": "https://ujjwalpandeyjava.github.io/CarExpoExample/",
-                "imageNameWithExtension": "carExpoPreview.jpeg",
                 "responsive": true
             },
             {
@@ -69,22 +63,28 @@
                 "responsive": false
             },
             {
+                "title": "Full physics Ping Pong game",
+                "exampleLink": "https://ujjwalpandeyjava.github.io/PingPongGameLoaded/",
+                "imageNameWithExtension": "PingPongGame.jpeg",
+                "responsive": true
+            },
+            {
                 "title": "Pre Page Animation ",
                 "exampleLink": "https://ujjwalpandeyjava.github.io/Pre-PageLoading/",
                 "imageNameWithExtension": "prePageAnimationExample.jpg",
                 "responsive": false
             },
             {
+                "title": "Car expo landing page",
+                "exampleLink": "https://ujjwalpandeyjava.github.io/CarExpoExample/",
+                "imageNameWithExtension": "carExpoPreview.jpeg",
+                "responsive": true
+            },
+            {
                 "title": "Blog landing page with mulit level navagintion",
                 "exampleLink": "https://ujjwalpandeyjava.github.io/Multi-Level-Super-Duper-Mega-Dropdown-Menu/",
                 "imageNameWithExtension": "BlogLandingPage.jpg",
                 "responsive": false
-            },
-            {
-                "title": "Full physics Ping Pong game",
-                "exampleLink": "https://ujjwalpandeyjava.github.io/PingPongGameLoaded/",
-                "imageNameWithExtension": "PingPongGame.jpeg",
-                "responsive": true
             },
             {
                 "title": "Rodad Safer NGO - Full site, Front-end",
