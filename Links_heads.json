@@ -21,13 +21,13 @@
         ],
         "WorkExamples": [
             {
-                "title": "Full Fladged  - Java web app for computer coaching (Best till date)(Run in eclipse)",
+                "title": "Full Fladged  - Java web app for computer institute (Best bt me till date)(Run in eclipse)",
                 "exampleLink": "https://github.com/ujjwalpandeyjava/InstituteManagementSystem",
-                "imageNameWithExtension": "",
+                "imageNameWithExtension": "ComputerInstitute.png",
                 "responsive": true
             },
             {
-                "title": "Project Links - for resume and links sharing purpose",
+                "title": "Project 'Links' - for resume and links sharing purpose",
                 "exampleLink": "https://ujjwalpandeyjava.github.io/Links/",
                 "imageNameWithExtension": "ujjwalAvatar3.png",
                 "responsive": true
@@ -43,6 +43,30 @@
                 "exampleLink": "https://ujjwalpandeyjava.github.io/CarExpoExample/",
                 "imageNameWithExtension": "carExpoPreview.jpeg",
                 "responsive": true
+            },
+            {
+                "title": "Pizza shop - show content onscroll",
+                "exampleLink": "https://ujjwalpandeyjava.github.io/Pizza-palace/",
+                "imageNameWithExtension": "PizzaShopLandingPage.jpeg",
+                "responsive": false
+            },
+            {
+                "title": "ENotes - Simple Java Web app (Run in eclipse)",
+                "exampleLink": "https://github.com/ujjwalpandeyjava/ENotes",
+                "imageNameWithExtension": "",
+                "responsive": true
+            },
+            {
+                "title": "ToDo - Java Web app with Spring and Hibernate (Run in eclipse)",
+                "exampleLink": "https://github.com/ujjwalpandeyjava/SimpleToDo_withHibernate",
+                "imageNameWithExtension": "",
+                "responsive": true
+            },
+            {
+                "title": "1-mini, 1-small, 2-medium sized react apps (Run with node)",
+                "exampleLink": "https://github.com/ujjwalpandeyjava/React_Projects",
+                "imageNameWithExtension": "react.png",
+                "responsive": false
             },
             {
                 "title": "Pre Page Animation ",
@@ -69,34 +93,10 @@
                 "responsive": true
             },
             {
-                "title": "Pizza shop - show content onscroll",
-                "exampleLink": "https://ujjwalpandeyjava.github.io/Pizza-palace/",
-                "imageNameWithExtension": "PizzaShopLandingPage.jpeg",
-                "responsive": false
-            },
-            {
                 "title": "Super hard Blurry effect",
                 "exampleLink": "https://ujjwalpandeyjava.github.io/SuperCoolHoverEffecct/",
                 "imageNameWithExtension": "CoolBlurryEffect.jpg",
                 "responsive": true
-            },
-            {
-                "title": "ENotes - Simple Java Web app (Run in eclipse)",
-                "exampleLink": "https://github.com/ujjwalpandeyjava/ENotes",
-                "imageNameWithExtension": "",
-                "responsive": true
-            },
-            {
-                "title": "ToDo - Java Web app with Spring and Hibernate (Run in eclipse)",
-                "exampleLink": "https://github.com/ujjwalpandeyjava/SimpleToDo_withHibernate",
-                "imageNameWithExtension": "",
-                "responsive": true
-            },
-            {
-                "title": "1-mini, 1-small, 2-medium sized react apps (Run with node)",
-                "exampleLink": "https://github.com/ujjwalpandeyjava/React_Projects",
-                "imageNameWithExtension": "react.png",
-                "responsive": false
             }
         ]
     },
