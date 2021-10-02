@@ -39,12 +39,6 @@
                 "responsive": true
             },
             {
-                "title": "Pizza recipe - shows' content onscroll",
-                "exampleLink": "https://ujjwalpandeyjava.github.io/Pizza-palace/",
-                "imageNameWithExtension": "PizzaShopLandingPage.jpeg",
-                "responsive": false
-            },
-            {
                 "title": "ENotes - Simple Java Web app (Run in eclipse)",
                 "exampleLink": "https://github.com/ujjwalpandeyjava/ENotes",
                 "imageNameWithExtension": "",
@@ -69,10 +63,22 @@
                 "responsive": true
             },
             {
+                "title": "Pizza recipe - shows' content onscroll",
+                "exampleLink": "https://ujjwalpandeyjava.github.io/Pizza-palace/",
+                "imageNameWithExtension": "PizzaShopLandingPage.jpeg",
+                "responsive": false
+            },
+            {
                 "title": "Pre Page Animation ",
                 "exampleLink": "https://ujjwalpandeyjava.github.io/Pre-PageLoading/",
                 "imageNameWithExtension": "prePageAnimationExample.jpg",
-                "responsive": false
+                "responsive": true
+            },
+            {
+                "title": "Rodad Safer NGO - Full site, Front-end",
+                "exampleLink": "https://ujjwalpandeyjava.github.io/NGORoasSafety/",
+                "imageNameWithExtension": "roadsafer.jpeg",
+                "responsive": true
             },
             {
                 "title": "Car expo landing page",
@@ -85,12 +91,6 @@
                 "exampleLink": "https://ujjwalpandeyjava.github.io/Multi-Level-Super-Duper-Mega-Dropdown-Menu/",
                 "imageNameWithExtension": "BlogLandingPage.jpg",
                 "responsive": false
-            },
-            {
-                "title": "Rodad Safer NGO - Full site, Front-end",
-                "exampleLink": "https://ujjwalpandeyjava.github.io/NGORoasSafety/",
-                "imageNameWithExtension": "roadsafer.jpeg",
-                "responsive": true
             },
             {
                 "title": "Super hard Blurry effect",
