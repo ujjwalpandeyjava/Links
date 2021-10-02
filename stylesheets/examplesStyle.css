@@ -229,6 +229,12 @@ body {
           animation: spinOpp 2s linear infinite;
 }
 
+@media (max-width: 570px) {
+  .main .loader {
+    right: 37%;
+  }
+}
+
 .main .links {
   min-height: 85;
   display: inline-block;

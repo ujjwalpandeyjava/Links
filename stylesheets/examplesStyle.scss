@@ -159,6 +159,9 @@ body {
         div {
             animation: spinOpp 2s linear infinite;
         }
+        @media (max-width: 570px) {
+            right: 37%;
+        }
     }
     .links {
         min-height: 85;
