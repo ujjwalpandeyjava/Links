@@ -12,6 +12,12 @@
 </head>
 
 <body>
+    <style>
+        #none {
+            display: none;
+            transition: all 0.6s ease;
+        }
+    </style>
     <div class="header">
         <div class="userName">Ujjwal Pandey</div>
         <div class="headerImages">
@@ -94,38 +100,78 @@
         <div class="links">
             <div>
                 <div class="image"><i class="fas fa-certificate" style="color: rgba(31, 30, 30, 0.973);"></i></div>
-                <div class="details"><a href="https://drive.google.com/drive/u/0/folders/1dorjhSfO3GajbS3r-Z5MxKcVebU5MB-O" target="_blank">My Certificates</a>
-                </div>
-            </div>
-        </div>
-        <!-- <div class="links">
-            <div>
-                <div class="image"><i class="fab fa-facebook" style="color: blue;"></i></div>
-                <div class="details"><a href="https://www.facebook.com/ujjwal.pandey.1656" target="_blank">Facebook</a>
+                <div class="details"><a
+                        href="https://drive.google.com/drive/u/0/folders/1dorjhSfO3GajbS3r-Z5MxKcVebU5MB-O"
+                        target="_blank">My Certificates</a>
                 </div>
             </div>
         </div>
         <div class="links">
             <div>
-                <div class="image"><i class="fab fa-twitter" style="color: #1D9BF0;"></i></div>
-                <div class="details"><a href="https://twitter.com/Ujjwalp13341664" target="_blank">Twitter</a></div>
+                <div class="image"><i class="fas fa-users" style="color: blue;"></i></div>
+                <div class="details" id="socialShow" onclick="showSocial()"
+                    style=" font-family: cursive; cursor: pointer;">More Social
+                    sites <i class="fas fa-sort-down" id="socialShowIcon" style="font-size: x-large; "></i>
+                </div>
             </div>
         </div>
-        <div class="links">
-            <div>
-                <div class="image"><i class="fab fa-instagram" style="color: #961985;"></i></div>
-                <div class="details"><a href="https://www.instagram.com/pandey.ujjwalpandey/"
-                        target="_blank">Instagram</a></div>
+        <div id="none">
+            <div class="links">
+                <div>
+                    <div class="image"><i class="fab fa-facebook" style="color: blue;"></i></div>
+                    <div class="details"><a href="https://www.facebook.com/ujjwal.pandey.1656"
+                            target="_blank">Facebook</a>
+                    </div>
+                </div>
             </div>
-        </div>-->
+            <div class="links">
+                <div>
+                    <div class="image"><i class="fab fa-twitter" style="color: #1D9BF0;"></i></div>
+                    <div class="details"><a href="https://twitter.com/Ujjwalp13341664" target="_blank">Twitter</a></div>
+                </div>
+            </div>
+            <div class="links">
+                <div>
+                    <div class="image"><i class="fab fa-instagram" style="color: #961985;"></i></div>
+                    <div class="details"><a href="https://www.instagram.com/pandey.ujjwalpandey/"
+                            target="_blank">Instagram</a></div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="footer" style="color: rgb(43, 73, 73); font-weight: bolder;">Check out my important and coding profiles
         <br />These project "Links" contains my skill showing profile, work examples and Portfolio
     </div>
 </body>
 <script>
-    function comingSoon() {
-        alert("Hii, Portfolio coming soon. stay connected.")
+    function showSocial() {
+        // Use switch case to activate hide or show.
+        var element = document.getElementById("socialShow");
+        if (element.classList.contains("visible"))
+            hidingSocial();
+        else
+            showingSocial();
+    }
+    function showingSocial() {
+        var element = document.getElementById("socialShow");
+        // var elementIcon = document.getElementById("socialShowIcon");
+        element.classList.add("visible")
+        // elementIcon.classList.remove("fa-sort-down")
+        // elementIcon.classList.add("fa-sort-up")
+        element.innerHTML = `Less Social
+                    links <i class="fas fa-sort-up" id="socialShowIcon" style="font-size: x-large; "></i>`;
+        document.getElementById("none").style.display = "block";
+
+    }
+    function hidingSocial() {
+        var element = document.getElementById("socialShow");
+        // var elementIcon = document.getElementById("socialShowIcon");
+        element.classList.remove("visible")
+        // elementIcon.classList.remove("fa-sort-up")
+        // elementIcon.classList.add("fa-sort-down")
+        element.innerHTML = `More Social
+                    sites <i class="fas fa-sort-down" id="socialShowIcon" style="font-size: x-large; "></i>`;
+        document.getElementById("none").style.display = "none";
     }
 </script>
 
