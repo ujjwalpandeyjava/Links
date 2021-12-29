@@ -16,8 +16,8 @@ font-family: 'Lobster Two', cursive;
 
 body {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
-  background: linear-gradient(to bottom, #12c2e9, #c471ed, #f64f59);
+  /* background: linear-gradient(to bottom, #12c2e9, #c471ed, #f64f59); */
+  background-color: #0d0e3bfa;
 }
 
 .header,
@@ -55,7 +55,7 @@ body {
   margin-top: 2rem;
   margin-bottom: 1.5em;
   font-size: 3.2rem;
-  color: #305079;
+  color: #f5fcff;
   font-family: "Lobster Two", cursive;
   font-weight: lighter;
   text-shadow: 1px 1px 3px #3838fd, 1px 1px 5px #38fdb7;
@@ -129,9 +129,9 @@ body {
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
-  -webkit-box-shadow: 0 0 8px 3px #62a1ed inset;
-          box-shadow: 0 0 8px 3px #62a1ed inset;
-  cursor: pointer;
+  -webkit-box-shadow: 0 0 8px 3px #2b2c55 inset;
+          box-shadow: 0 0 8px 3px #2b2c55 inset;
+  cursor: alias;
   -webkit-transition: all 0.45s ease;
   transition: all 0.45s ease;
 }
@@ -168,7 +168,7 @@ body {
 .header .headerImages .insideHeaderImages a .sectionName {
   text-align: center;
   padding: 6px;
-  color: black;
+  color: #f7fffa;
   font-style: italic;
   font-family: serif;
   font-size: 1.3em;
@@ -369,9 +369,9 @@ body {
 }
 
 .javaDescription {
-  font-size: 22 px;
-  padding: 20px;
-  color: darkslategray;
+  font-size: 14px;
+  padding: 19px;
+  color: #aadbdb;
   font-weight: bold;
 }
 
@@ -383,8 +383,8 @@ body {
 .footer {
   margin: 0;
   display: block;
-  color: black;
-  background-color: rgba(255, 203, 136, 0.33);
+  color: #dfdfdf;
+  background-color: #0b590f;
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
 }
@@ -395,14 +395,13 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background: -webkit-gradient(linear, left top, left bottom, from(#36b6edfa), color-stop(#c471ed), to(#f54f5bfa));
-  background: linear-gradient(to bottom, #36b6edfa, #c471ed, #f54f5bfa);
+  background: linear-gradient(90deg, #434343, #434343 1px, #111 0, #111);
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #9487eccf;
+  background: #434343;
   border-radius: 16px;
-  -webkit-box-shadow: inset 2px 2px 2px #cecdcd40, inset -2px -2px 2px rgba(0, 0, 0, 0.25);
-          box-shadow: inset 2px 2px 2px #cecdcd40, inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25), inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25), inset -2px -2px 2px rgba(0, 0, 0, 0.25);
 }
 /*# sourceMappingURL=examplesStyle.css.map */
