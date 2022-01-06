@@ -47,6 +47,12 @@ body {
         font-family: "Lobster Two", cursive;
         font-weight: lighter;
         text-shadow: 1px 1px 3px #3838fd, 1px 1px 5px #38fdb7;
+        text-align: center;
+        span {
+            font-size: 0.7em;
+            text-shadow: none;
+            box-shadow: none;
+        }
     }
     .headerImages {
         // border: 1px solid black;

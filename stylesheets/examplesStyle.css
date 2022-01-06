@@ -58,7 +58,15 @@ body {
   color: #f5fcff;
   font-family: "Lobster Two", cursive;
   font-weight: lighter;
-  text-shadow: 1px 1px 3px #3838fd, 1px 1px 5px #38fdb7;
+  text-shadow: 1px 1px 3px #3838fd, 1px 1px 4px #38fdb7;
+  text-align: center;
+}
+
+.header .userName span {
+  font-size: 0.7em;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .header .headerImages {
