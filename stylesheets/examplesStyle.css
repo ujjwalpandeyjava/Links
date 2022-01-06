@@ -16,7 +16,6 @@ font-family: 'Lobster Two', cursive;
 
 body {
   min-height: 100vh;
-  /* background: linear-gradient(to bottom, #12c2e9, #c471ed, #f64f59); */
   background-color: #0d0e3bfa;
 }
 
@@ -58,7 +57,7 @@ body {
   color: #f5fcff;
   font-family: "Lobster Two", cursive;
   font-weight: lighter;
-  text-shadow: 1px 1px 3px #3838fd, 1px 1px 4px #38fdb7;
+  text-shadow: 1px 1px 3px #3838fd, 1px 1px 5px #38fdb7;
   text-align: center;
 }
 
