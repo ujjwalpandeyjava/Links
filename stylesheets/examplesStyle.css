@@ -283,10 +283,8 @@ body {
 }
 
 .javaDescription {
-  font-size: 14px;
-  padding: 19px;
-  color: #aadbdb;
-  font-weight: bold;
+  font-size: large;
+  padding: 1em;
 }
 
 .javaDescription p {
