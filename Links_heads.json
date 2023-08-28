@@ -1,7 +1,7 @@
 [
     {
         "userName": "Ujjwal Pandey",
-        "maild_id": "ujjwalpandey.aps@gmail.com",
+        "mail_id": "ujjwalpandey.aps@gmail.com",
         "SocialLinks": [
             {
                 "title": "Git Hub",
@@ -21,7 +21,13 @@
         ],
         "WorkExamples": [
             {
-                "title": "User-Faculty data management system - A java web app for computer institute (Best by me till date)(Run in eclipse)",
+                "title": "WARs, JARs, DB Backups, Postman test, etc<br/>(Run on server)",
+                "exampleLink": "https://github.com/ujjwalpandeyjava/WARs-JARs-DBs",
+                "imageNameWithExtension": "deploy.jpeg",
+                "responsive": true
+            },
+            {
+                "title": "User-Faculty data management system - A java web app for computer institute<br/>(War, DB available)",
                 "exampleLink": "https://github.com/ujjwalpandeyjava/InstituteManagementSystem",
                 "imageNameWithExtension": "ComputerInstitute.png",
                 "responsive": true
@@ -33,8 +39,8 @@
                 "responsive": true
             },
             {
-                "title": "Dance Academy Site (semi-responsive) (ME_N stack with pug) Full site",
-                "exampleLink": "https://pandey-dance-academy.herokuapp.com/",
+                "title": "Dance Academy (Responsive)<br/> (Mongo, Express, Node with pug)",
+                "exampleLink": "https://github.com/ujjwalpandeyjava/DanceAcademy",
                 "imageNameWithExtension": "pandeyDanceAcademy.jpeg",
                 "responsive": true
             },
@@ -51,19 +57,19 @@
                 "responsive": true
             },
             {
-                "title": "1-mini, 1-small, 2-medium sized react apps (Run with node)",
+                "title": "Initial ReactJs apps I have created,<br/>More in other repositories",
                 "exampleLink": "https://github.com/ujjwalpandeyjava/React_Projects",
                 "imageNameWithExtension": "react.png",
                 "responsive": false
             },
             {
-                "title": "Full physics Ping Pong game",
+                "title": "Ping Pong game - Physics applied",
                 "exampleLink": "https://ujjwalpandeyjava.github.io/PingPongGameLoaded/",
                 "imageNameWithExtension": "PingPongGame.jpeg",
                 "responsive": true
             },
             {
-                "title": "Pizza recipe - shows' content onscroll",
+                "title": "Demo - Pizza recipe - Animate on scroll",
                 "exampleLink": "https://ujjwalpandeyjava.github.io/Pizza-palace/",
                 "imageNameWithExtension": "PizzaShopLandingPage.jpeg",
                 "responsive": false
@@ -74,6 +80,19 @@
                 "imageNameWithExtension": "prePageAnimationExample.jpg",
                 "responsive": true
             },
+            {
+                "title": "Other tons of designs I have worked on",
+                "exampleLink": "https://github.com/ujjwalpandeyjava/Practice-reupload",
+                "imageNameWithExtension": "",
+                "responsive": true
+            }
+        ]
+    },
+    {
+        "userName": "Ujjwal Pandey2",
+        "mail_id": "put it in the upper list on need",
+        "SocialLinks": [],
+        "WorkExamples": [
             {
                 "title": "Rodad Safer NGO - Full site, Front-end",
                 "exampleLink": "https://ujjwalpandeyjava.github.io/NGORoasSafety/",
@@ -103,31 +122,6 @@
                 "exampleLink": "https://github.com/ujjwalpandeyjava?tab=repositories",
                 "imageNameWithExtension": "",
                 "responsive": false
-            }
-        ]
-    },
-    {
-        "userName": "Ujjwal Pandey2",
-        "maild_id": "ujjwalpandey.apps@gmail.com",
-        "SocialLinks": [
-            {
-                "title": "this is title2",
-                "link": "fadf2"
-            },
-            {}
-        ],
-        "WorkExamples": [
-            {
-                "title": "This is work title2",
-                "exampleLink": "this is work link2",
-                "imageNameWithExtension": "this is work link",
-                "responsive": false
-            },
-            {
-                "title": "This is work title",
-                "exampleLink": "this is work link",
-                "imageNameWithExtension": "this is work link",
-                "responsive": true
             }
         ]
     }
