@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&family=Nunito+Sans&family=Proza+Libre&display=swap");
-
 /*  >> How to use the fonts:
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Proza Libre', sans-serif;
@@ -20,7 +19,7 @@ body {
 .header,
 .main,
 .footer {
-  margin: 0px 10px 10px 10px;
+  margin: 10px;
   padding: 10px;
 }
 
@@ -35,7 +34,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .header .userName {
   padding: 5px;
   min-height: 50px;
@@ -48,13 +46,11 @@ body {
   text-shadow: 1px 1px 3px #3838fd, 1px 1px 5px #38fdb7;
   text-align: center;
 }
-
 .header .userName span {
   font-size: 0.7em;
   text-shadow: none;
   box-shadow: none;
 }
-
 .header .headerImages {
   display: flex;
   flex-direction: row;
@@ -66,7 +62,6 @@ body {
   height: auto;
   padding: 4.5px 0;
 }
-
 .header .headerImages .insideHeaderImages {
   width: 30%;
   max-width: 380px;
@@ -76,13 +71,11 @@ body {
   align-content: center;
   align-items: center;
 }
-
 .header .headerImages .insideHeaderImages a {
   text-decoration: none;
   text-decoration-color: black;
   width: 100%;
 }
-
 .header .headerImages .insideHeaderImages a .imgdiv {
   display: flex;
   min-height: 100px;
@@ -97,34 +90,29 @@ body {
   cursor: alias;
   transition: all 0.45s ease;
 }
-
 .header .headerImages .insideHeaderImages a .imgdiv img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   width: 100%;
   min-height: 100px;
   height: auto;
   z-index: -2;
 }
-
 @media (max-width: 570px) {
   .header .headerImages .insideHeaderImages a .imgdiv {
     border-radius: 46%;
   }
 }
-
 @media (min-width: 570px) {
   .header .headerImages .insideHeaderImages a .imgdiv {
     border-radius: 10px;
   }
 }
-
 .header .headerImages .insideHeaderImages a .imgdiv:hover {
   transform: scale(1.1);
   border-radius: 20px;
   box-shadow: 1px 1px 9px 0px #2c147b;
 }
-
 .header .headerImages .insideHeaderImages a .sectionName {
   text-align: center;
   padding: 6px;
@@ -136,11 +124,9 @@ body {
   overflow-x: auto;
   transform: translateX(-3%);
 }
-
 .header .headerImages .insideHeaderImages a .sectionName::-webkit-scrollbar {
   display: none;
 }
-
 .header .headerImages .insideHeaderImages a:link,
 .header .headerImages .insideHeaderImages a:visited,
 .header .headerImages .insideHeaderImages a:hover,
@@ -154,7 +140,6 @@ body {
   min-height: 29vh;
   position: relative;
 }
-
 .main .loader {
   position: absolute;
   top: 0px;
@@ -174,17 +159,14 @@ body {
   border-top: 10px solid #3498db;
   animation: spin 2s linear infinite;
 }
-
 .main .loader div {
   animation: spinOpp 2s linear infinite;
 }
-
 @media (max-width: 570px) {
   .main .loader {
     right: 37%;
   }
 }
-
 .main .links {
   min-height: 85;
   display: inline-block;
@@ -194,21 +176,18 @@ body {
   border-radius: 5px;
   margin-bottom: 8px;
 }
-
 @media (max-width: 570px) {
   .main .links {
     display: block;
     width: 100%;
   }
 }
-
 .main .links div {
   display: flex;
   -moz-column-gap: 20px;
-  column-gap: 20px;
+       column-gap: 20px;
   cursor: pointer;
 }
-
 .main .links div .image {
   padding: 1px;
   width: 60%;
@@ -219,10 +198,9 @@ body {
   word-wrap: break-word;
   transition: all 300ms ease-in-out;
 }
-
 .main .links div .image img {
   -o-object-fit: fill;
-  object-fit: fill;
+     object-fit: fill;
   width: 100%;
   height: 81px;
   max-height: 100px;
@@ -230,11 +208,9 @@ body {
   box-shadow: 1px 1px 2px rgba(109, 95, 95, 0.8784313725);
   border-radius: 7px;
 }
-
 .main .links div .image:hover {
   transform: scale(1.1);
 }
-
 .main .links div .details {
   display: block;
   padding: 10px;
@@ -243,50 +219,44 @@ body {
   font-family: "Nunito Sans", sans-serif;
   font-weight: bold;
 }
-
 .main .links div .details span,
 .main .links div .details i {
   color: rgba(227, 227, 227, 0.968627451);
 }
-
 .main .links div .details a {
   color: black;
   color: white;
   text-decoration: none;
 }
-
 .main .links div .details:hover {
   background-color: rgba(255, 255, 255, 0.337254902);
   color: black;
   box-shadow: 0 0 7px #9e4dea;
   border-radius: 6px;
 }
-
 @keyframes spin {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
 }
-
 @keyframes spinOpp {
   0% {
     transform: rotate(360deg);
   }
-
   100% {
     transform: rotate(0deg);
   }
 }
 
 .javaDescription {
-  font-size: large;
-  padding: 1em;
+  font-size: 14px;
+  padding: 19px;
+  color: #aadbdb;
+  font-weight: bold;
 }
-
 .javaDescription p {
   font-size: 16px;
   font-weight: normal;
@@ -314,6 +284,4 @@ html::-webkit-scrollbar-thumb {
   background: #434343;
   border-radius: 16px;
   box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25), inset -2px -2px 2px rgba(0, 0, 0, 0.25);
-}
-
-/*# sourceMappingURL=examplesStyle.css.map */
+}/*# sourceMappingURL=examplesStyle.css.map */
